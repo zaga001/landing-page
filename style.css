@@ -9,10 +9,6 @@ body {
     background-color: #1F2937;
 }
 
-.header, .information, .quote {
-    height: 500px;
-}
-
 .hero {
     font-size: 48px;
     font-weight: 800;
@@ -92,6 +88,7 @@ a {
     display: flex;
     gap: 32px;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .info-title {
@@ -120,7 +117,7 @@ a {
 }
 
 .info-text {
-    width: 200px;
+    width: 100px;
     color: #1F2937;
 }
 
@@ -130,8 +127,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding: 50px 400px;
     gap: 8px;
 }
 
@@ -150,9 +146,9 @@ a {
 
 .signup {
     display: flex;
-    height: 400px;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .signup-container {
