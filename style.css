@@ -76,7 +76,7 @@ a {
 
 .two {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     gap: 32px;
 }
 
@@ -88,7 +88,7 @@ a {
     display: flex;
     gap: 32px;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .info-title {
@@ -119,6 +119,7 @@ a {
 .info-text {
     width: 100px;
     color: #1F2937;
+    margin: 0;
 }
 
 .quote {
@@ -178,6 +179,10 @@ a {
     font-size: 18px;
     border-color: #F9FAF8;
     border-style: solid;
+}
+
+.call, .call-sub {
+    margin: 0;
 }
 
 .footer {
